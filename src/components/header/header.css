@@ -1,0 +1,34 @@
+.mainhHeader{
+    display: flex;
+    align-items: center;
+    height: 55px;
+}
+.socialMedia{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.navbarMenu{
+    flex: 6;
+}
+.navbarMenu .navList{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.navbarMenu .navList li{padding: 15px;}
+.userTopRight{
+    flex: 3;
+}
+.userTopRightList{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.userTopRightList li{margin-right: 15px;}
+.user-profile{
+    width:30px;
+    height: 30px;
+    border-radius: 100%;
+}

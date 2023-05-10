@@ -1,0 +1,19 @@
+.home-posts{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+}
+
+.posts-main{
+    flex: 9;
+}
+.sidebar-main{
+    flex: 3;
+    background-color: blue;
+}
+.posts{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
