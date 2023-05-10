@@ -17,6 +17,7 @@ const Header:React.FC = () => {
       <div className='navbarMenu'>
         <nav className='navList'>
           <li><Link className='nav-link' to='/'>Home</Link></li>
+          <li><Link className='nav-link' to='/users'>Users</Link></li>
           <li><Link className='nav-link' to='/about'>About Us</Link></li>
           <li><Link className='nav-link' to='/contact'>Contact Us</Link></li>
           <li><Link  className='nav-link' to='/write'>Write</Link></li>
@@ -30,7 +31,7 @@ const Header:React.FC = () => {
         <li><Link  className='nav-link' to='/login'>Login</Link></li>
         <li><Link  className='nav-link' to='/register'>Register</Link></li>
         </>
-  }
+        }
           <li><FaSearch/></li>
         </ul>
       </div>

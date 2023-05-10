@@ -1,0 +1,16 @@
+.usersList{
+    max-width: 991px;
+    margin: auto;
+}
+.user-card{
+    border: 1px solid #e9e9e9;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 6px;
+}
+.user-card .card-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.user-card .card-body span{font-weight:600;}

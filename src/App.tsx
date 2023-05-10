@@ -9,6 +9,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Login from './pages/login/Login';
 import Register from './pages/register/Register';
 import Profile from './pages/profile/Profile';
+import Users from './pages/users/Users';
 
 function App() {
   const user=false
@@ -18,6 +19,7 @@ function App() {
     <Header/>
       <Routes>
         <Route path="/" element={<Home/>}/>
+        <Route path="/users" element={<Users/>}/>
         <Route path="/about" element={<AboutUs/>}/>
         <Route path="/contact" element={<ContactUs/>}/>
         <Route path="/write" element={user?<Write/>:<Register/>}/>
