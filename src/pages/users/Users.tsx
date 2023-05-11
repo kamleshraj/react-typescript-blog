@@ -11,7 +11,7 @@ interface IState{
 
 const Users:React.FC = () => {
     const[state,setState]=useState<IState>({
-        loading:false,
+        loading:true,
         users:[] as IUsers[],
         errorMsg:''
     })
@@ -28,9 +28,12 @@ const Users:React.FC = () => {
         errorMsg:err.message
        }))
     },[])
+    const{loading,users,errorMsg}=state
   return (
     <>
         <div className='usersList'>
+            {loading && <h1>Loading...</h1>}
+            {errorMsg && <h1>Something went wrong</h1>}
             {state.users.map((user)=>{
                 return(
                     <div className='user-card' key={user.id}>
