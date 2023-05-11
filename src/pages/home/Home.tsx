@@ -1,7 +1,6 @@
 import React from 'react'
 import Banner from '../../components/banner/Banner'
 import '../home/home.css'
-import Post from '../../components/post/Post'
 import Posts from '../../components/posts/Posts'
 import Sidebar from '../../components/sidebar/Sidebar'
 const Home:React.FC=()=>{

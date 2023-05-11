@@ -27,8 +27,9 @@ const Users:React.FC = () => {
         loading:false,
         errorMsg:err.message
        }))
+       // eslint-disable-next-line react-hooks/exhaustive-deps
     },[])
-    const{loading,users,errorMsg}=state
+    const{loading,errorMsg}=state
   return (
     <>
         <div className='usersList'>
